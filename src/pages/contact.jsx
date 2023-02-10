@@ -7,7 +7,7 @@ import {
 
 function Contact() {
   return (
-    <section className="xl:w-5/6 w-full px-4 mx-auto pt-16">
+    <section className="xl:w-5/6 w-full px-4 mx-auto pt-16" id="contact">
       <div className="container">
         <div className="grid grid-cols-12 gap-7">
           <div className="col-span-12 lg:col-span-5 xl:col-span-4">

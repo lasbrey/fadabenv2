@@ -8,7 +8,7 @@ import Image6 from "../asset/IMG_6080.JPG";
 
 function Gallery() {
   return (
-    <section data-scroll-index="3" id="work" className="section mb-10">
+    <section id="gallery" className="section mb-10">
       <div className="xl:w-5/6 w-full px-4 mx-auto">
         <div className="mb-5 ">
           <h3 className="relative z-10 m-0 inline-block text-3xl font-semibold after:-top-3 after:-left-4 after:h-11 after:w-11 after:rounded-full after:bg-red-500 after:absolute after:-z-10 ">

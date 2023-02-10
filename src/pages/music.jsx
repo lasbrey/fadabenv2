@@ -4,7 +4,7 @@ import Image from "../asset/IMG_6094.JPG"
 
 function Music() {
   return (
-    <section className="xl:w-5/6 w-full px-4 mx-auto xl:mb-20 mb-10">
+    <section className="xl:w-5/6 w-full px-4 mx-auto xl:mb-20 mb-10" id="music">
       <div className="mb-5 ">
         <h3 className="relative z-10 m-0 inline-block text-3xl font-semibold after:-top-3 after:-left-4 after:h-11 after:w-11 after:rounded-full after:bg-red-500 after:absolute after:-z-10 ">
           Music

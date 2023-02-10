@@ -11,7 +11,7 @@ import "./style.css";
 
 function About() {
   return (
-    <section className="section bg-slate-900 py-8">
+    <section className="section bg-slate-900 py-8" id="about">
       <div className=" mx-auto xl:w-5/6 w-full px-4">
         <div className="grid grid-cols-12 gap-7 items-center justify-center">
           <div className="col-span-12 lg:col-span-4">

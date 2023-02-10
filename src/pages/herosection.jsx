@@ -3,7 +3,7 @@ import "./style.css";
 
 function HeroSection() {
   return (
-    <section className="relative overflow-hidden">
+    <section className="relative overflow-hidden" id="home">
       <div className="absolute top-0 left-0 right-0 z-10 xl:px-[50px] px-0 xl:text-md text-[12px] pt-[30px] flex justify-between">
         <div className="hb-info">
           <label>+04 6545-9535-6515</label>

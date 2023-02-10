@@ -1,0 +1,60 @@
+.hb-me {
+    background-image: url(https://pxdraft.com/themeforest/tailwind/nairo/assets/img/home-banner.png);
+    position: absolute;
+    right: 0px;
+    top: 0px;
+    bottom: 0px;
+    height: 100%;
+    width: 100vw;
+    background-size: contain;
+    background-position: bottom;
+    background-repeat: no-repeat;
+    opacity: 0.4;
+  }
+  @media (min-width: 1024px) {
+    .hb-me {
+      width: 90vw;
+      opacity: 1;
+    }
+  }
+  
+  @media (min-width: 1280px) {
+    .hb-me {
+      width: 50vw;
+    }
+  }
+  
+  .seperated {
+    background-size: auto 6px;
+  }
+  .social-icons a:nth-child(5),
+  .social-icons a:nth-child(1) {
+    top: -25px;
+  }
+  
+  .social-icons a {
+    position: relative;
+    margin-left: 0.25rem;
+    margin-right: 0.25rem;
+    display: inline-flex;
+    height: 35px;
+    width: 35px;
+    --tw-scale-x: 1;
+    --tw-scale-y: 1;
+    transform: translate(var(--tw-translate-x), var(--tw-translate-y))
+      rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y))
+      scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
+    align-items: center;
+    justify-content: center;
+    border-radius: 9999px;
+    border-width: 2px;
+    --tw-border-opacity: 1;
+    border-color: rgb(255 255 255 / var(--tw-border-opacity));
+    --tw-bg-opacity: 1;
+    background-color: rgb(24 25 29 / var(--tw-bg-opacity));
+    --tw-text-opacity: 1;
+    color: rgb(255 255 255 / var(--tw-text-opacity));
+    transition-duration: 300ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  }
+  

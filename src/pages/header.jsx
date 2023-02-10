@@ -11,7 +11,7 @@ import {
 
 function Header() {
   return (
-    <header className="bg-slate-800 xl:fixed hidden top-0 w-20 flex-col flex bottom-0 left-0 one-page-nav">
+    <header className="bg-slate-800 xl:fixed hidden top-0 w-20 flex-col xl:flex bottom-0 left-0 one-page-nav">
       <div className=" bg-red-500  ">
         <p className="flex justify-center p-5">
           <img

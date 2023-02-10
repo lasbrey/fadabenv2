@@ -1,5 +1,6 @@
 import React from "react";
 import { PlayCircle } from "@mui/icons-material";
+import Image from "../asset/IMG_6094.JPG"
 
 function Music() {
   return (
@@ -14,8 +15,8 @@ function Music() {
           <div className="">
             <img
               className="xl:w-96 w-100 h-auto rounded-lg img-bg transition-all duration-300 blur-none hover:blur-sm"
-              src="https://res.cloudinary.com/dgikmoh1f/image/upload/v1666116474/ep_mqfcuh.jpg"
-              alt="image description"
+              src={Image}
+              alt="description"
             />
           </div>
         </div>
@@ -85,6 +86,7 @@ function Music() {
           </div>
         </div>
       </div>
+      
     </section>
   );
 }

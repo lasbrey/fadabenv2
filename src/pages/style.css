@@ -1,15 +1,5 @@
 .hb-me {
-    background-image: url(https://pxdraft.com/themeforest/tailwind/nairo/assets/img/home-banner.png);
-    position: absolute;
-    right: 0px;
-    top: 0px;
-    bottom: 0px;
-    height: 100%;
-    width: 100vw;
-    background-size: contain;
-    background-position: bottom;
-    background-repeat: no-repeat;
-    opacity: 0.4;
+    background-image: url("../asset/EJ2A8598-removebg-preview.png");
   }
   @media (min-width: 1024px) {
     .hb-me {

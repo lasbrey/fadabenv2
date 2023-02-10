@@ -25,7 +25,8 @@ function HeroSection() {
           </div>
         </div>
       </div>
-      <div className="hb-me"></div>
+      <div className="hb-me absolute right-0 top-0 bottom-0 h-full w-screen bg-contain bg-bottom bg-no-repeat opacity-40"></div>
+      <div className=""></div>
     </section>
   );
 }

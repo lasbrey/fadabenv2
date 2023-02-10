@@ -67,6 +67,15 @@ function Gallery() {
             </div>
           </div>
         </section>
+        <div class="text-center py-5">
+        <a
+          href="https://www.youtube.com/channel/UC7VasuZmhGn8lJgiazcebcA"
+          class="pointer"
+        >
+          {" "}
+          <button class="px-8 py-3 text-white bg-red-800"> View More Photos</button>
+        </a>
+      </div>
       </div>
     </section>
   );

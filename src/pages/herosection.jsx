@@ -14,13 +14,14 @@ function HeroSection() {
         <div className="grid grid-cols-12 min-h-screen items-center">
           <div className="col-span-12 lg:col-span-7">
             <div className="type-box">
-              <h6 className="text-xl">👋 Hello</h6>
-              <h1 className="xl:text-6xl text-4xl pt-8 font-bold">Welcome to the official online home of <span className="text-[#60100b]"> FadaBen</span></h1>
+              <h6 className="text-xl">👋 Hello, my name is</h6>
+              <h1 className="xl:text-6xl text-4xl pt-8 font-bold"><span className="text-[#60100b]"> FadaBen</span></h1>
               <p className="max-w-[450px] pt-8 text-gray-400">
-                Bringing art to life through his music. With his excellent
-                guitar playing technique, his soulful voice and a unique
-                songwriting style, he captures not only the ears of his
-                listeners but also their hearts.
+              My name is FadaBen. I bring art to life through my music and
+                  creative adventures. I’m a Catholic Priest, Multipotentialite,
+                  Creative Director, Musician - Producer. <br /> I’m also a Youth
+                  Animator, with a burning desire to harness youthful energies
+                  to grow our local communities and the world at large.
               </p>
             </div>
           </div>

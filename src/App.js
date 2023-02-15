@@ -18,8 +18,8 @@ function App() {
         <About />
         <div className="bg-[url('https://pxdraft.com/themeforest/tailwind/nairo/assets/img/border.png')] pt-20 bg-repeat-x bg-center seperated"></div>
         <Music />
-        <Gallery />
         <Video />
+        <Gallery />
         <Tours />
         <Contact />
         <Footer />  

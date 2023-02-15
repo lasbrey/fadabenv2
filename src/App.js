@@ -11,15 +11,15 @@ import Footer from "./pages/footer.jsx"
 
 function App() {
   return (
-    <div className="bg-gray-900 text-white">
+    <div className="bg-black text-white">
       <Header />
-      <div className="xl:pl-20 p-4">
+      <div className="xl:pl-20">
         <HeroSection />
         <About />
         <div className="bg-[url('https://pxdraft.com/themeforest/tailwind/nairo/assets/img/border.png')] pt-20 bg-repeat-x bg-center seperated"></div>
         <Music />
-        <Video />
         <Gallery />
+        <Video />
         <Tours />
         <Contact />
         <Footer />  

@@ -12,21 +12,20 @@ function Contact() {
         <div className="grid grid-cols-12 gap-7">
           <div className="col-span-12 lg:col-span-5 xl:col-span-4">
             <div className="contact-info">
-              <h4 className="relative z-10 m-0 inline-block after:-top-3 after:-left-4 after:h-11 after:w-11 after:rounded-full after:bg-red-500 after:absolute after:-z-10 text-4xl font-bold mb-4">Get in touch</h4>
+              <h4 className="relative z-10 m-0 inline-block after:-top-3 after:-left-4 after:h-11 after:w-11 after:rounded-full after:bg-[#60100b] after:absolute after:-z-10 text-4xl font-bold mb-4">Get in touch</h4>
               <p className="text-md">
-                Always available for freelancing if the right project comes
-                along, Feel free to contact me.
+                Always available for  booking and special requests, Feel free to contact me.
               </p>
               <ul className="pt-4">
                 <li className="relative flex text-sm font-medium pt-4">
                  <PersonPinCircle />
                   <span className="pl-4">
-                    123 Stree New York City.
+                    123 Stree Abuja Nigeria.
                   </span>
                 </li>
                 <li className="relative flex text-sm font-medium pt-4">
                  <MarkAsUnread />
-                  <span className="pl-4">support@domain.com</span>
+                  <span className="pl-4">support@fadaben.com</span>
                 </li>
                 <li className="relative flex text-sm font-medium pt-4">
                   <PhoneAndroid />
@@ -46,7 +45,7 @@ function Contact() {
                         name="Name"
                         id="name"
                         placeholder="Name *"
-                        className="w-full rounded border px-4 py-3 text-sm outline-none border-slate-800 shadow-md bg-slate-700"
+                        className="w-full rounded border px-4 py-3 text-sm outline-none border-slate-900 shadow-md bg-black"
                         type="text"
                       />
                     </div>
@@ -57,7 +56,7 @@ function Contact() {
                         name="Email"
                         id="email"
                         placeholder="Email *"
-                        className="w-full rounded border px-4 py-3 text-sm outline-none border-slate-800 shadow-md bg-slate-700"
+                        className="w-full rounded border px-4 py-3 text-sm outline-none border-slate-900 shadow-md bg-black"
                         type="email"
                       />
                     </div>
@@ -68,7 +67,7 @@ function Contact() {
                         name="Subject"
                         id="subject"
                         placeholder="Subject *"
-                        className="w-full rounded border px-4 py-3 text-sm outline-none border-slate-800 shadow-md bg-slate-700"
+                        className="w-full rounded border px-4 py-3 text-sm outline-none border-slate-900 shadow-md bg-black"
                         type="text"
                       />
                     </div>
@@ -80,7 +79,7 @@ function Contact() {
                         id="message"
                         placeholder="Your message *"
                         rows="5"
-                        className="w-full rounded border px-4 py-3 text-sm outline-none border-slate-800 shadow-md bg-slate-700"
+                        className="w-full rounded border px-4 py-3 text-sm outline-none border-slate-900 shadow-md bg-black"
                       ></textarea>
                     </div>
                   </div>
